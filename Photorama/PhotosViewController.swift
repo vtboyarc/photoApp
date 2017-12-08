@@ -69,7 +69,7 @@ UINavigationControllerDelegate {
             // When the request finishes, only update the cell if it's still visible
             if let cell = self.collectionView.cellForItem(at: photoIndexPath)
                 as? PhotoCollectionViewCell {
-                cell.update(with: image) 
+                cell.update(with: image)  
             }
         })
     }

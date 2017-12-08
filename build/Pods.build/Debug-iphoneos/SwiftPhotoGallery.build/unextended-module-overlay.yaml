@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/adamcarter/Documents/PhotoApp/build/Debug-iphoneos/SwiftPhotoGallery/SwiftPhotoGallery.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/adamcarter/Documents/PhotoApp/build/Pods.build/Debug-iphoneos/SwiftPhotoGallery.build/unextended-module.modulemap',
+    }]
+  }]
+}

@@ -44,15 +44,4 @@ class PhotoInfoViewController: UIViewController {
         self.present(alert, animated: true, completion: nil)
     }
     
-//    @IBAction func SavePhoto(_ sender: Any) {
-//        let imageData = UIImagePNGRepresentation(imageView.image!)
-//                let compresedImage = UIImage(data: imageData!)
-//                UIImageWriteToSavedPhotosAlbum(compresedImage!, nil, nil, nil)
-//
-//                let alert = UIAlertController(title: "Saved", message: "Your image has been saved", preferredStyle: .alert)
-//                let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
-//                alert.addAction(okAction)
-//                self.present(alert, animated: true, completion: nil)
-//    }
-    
 }
